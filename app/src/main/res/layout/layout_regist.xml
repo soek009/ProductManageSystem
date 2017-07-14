@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/text_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please input userid"/>
+    <EditText
+        android:id="@+id/text_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please input username"/>
+    <EditText
+        android:id="@+id/text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please input password"/>
+    <EditText
+        android:id="@+id/text_conformpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please conform your password"/>
+    <EditText
+        android:id="@+id/text_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please input your Tel"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"/>
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+</LinearLayout>
